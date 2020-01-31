@@ -1,0 +1,11 @@
+
+* change the PATH according to your shared folder in both server and Client program files.
+* Run server.py first then run client.py files. only 3 clients can connect to the server so run client file giving defernt shared folder PATH.
+* If we need to increase the clients number. change input argument given in socket.listen() in server.py
+* Give user name in client WINDOW and connect. 
+* If you want to dsiconnect just press disconect in client WINDOW
+* To transfer any file, just put the file you need to transfer in shared folder it will be sent to server and server will send the file to other clients.
+* Clients will get any file uploaded by other clients and it will be downloaded to their shared folder.
+* When the client disconnect server will get a notification.
+
+
